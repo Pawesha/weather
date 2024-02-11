@@ -1,0 +1,147 @@
+
+#weatherData {
+    height: 700px;
+    width: 400px;
+    border: 5px solid #161b33 ;
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+    background-image: linear-gradient(to top left, #14213d 0%, #474973 100%);
+    color: aliceblue;
+
+}
+
+.weather-location {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.weather-temperature {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.weather-date {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.weather-condition {
+    font-style: italic;
+    text-align: center;
+}
+
+.weather-Icon {
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    display: block;
+}
+
+#weatherForecast {
+    height: 1400px;
+    width: 1200px;
+    border: 5px solid #161b33 ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+ 
+    justify-content: right;
+    float: right;
+    margin: 10px;
+    padding: 4px;
+    background-image: linear-gradient(to top left, #14213d 0%, #474973 100%);
+    color: aliceblue;
+}
+
+.forecast-day {
+    height: 400px;
+    width: 300px;
+    border: 2px solid  #161b33;
+    margin: 2px;
+    padding: 2px;
+    display: block;
+    background-image: linear-gradient(to top left, #14213d 0%, #535682 100%);
+
+}
+p{
+    font-size: larger;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+body{
+    background-image: linear-gradient(to top left, #355070 0%, #6d597a 100%);
+}
+#cname {
+ 
+    border: 1px solid #6e65eb;
+    padding: 25px 25px; 
+    border-radius: 10px; /* Border radius */
+    font-size: 20px;
+  
+}
+label{
+    font-size: 20px;
+    color: aliceblue;
+}
+button{
+    padding: 25px 25px;
+    border: 2px solid #161b33;
+    border-radius: 10px; 
+    background-image: linear-gradient(to top left, #355070 0%, #6d597a 100%);
+    font-size: 20px;
+}
+/* iphone14 pro max*/
+
+
+@media screen and (min-width: 430px) and (max-width: 932px) {
+    #weatherForecast {
+        height: 800px;
+        width: 600px;
+        border: 5px solid #161b33 ;
+        display: grid;
+        grid-template-columns: 140px 140px 135px;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 0px;
+     
+        justify-content: right;
+        float: right;
+        margin: 0px;
+        padding: 0px;
+        background-image: linear-gradient(to top left, #14213d 0%, #474973 100%);
+        color: aliceblue;
+    }
+    
+    .forecast-day {
+        height: 250px;
+        width: 130px;
+        border: 1px solid  #161b33;
+        margin: 0px;
+        padding: 0px;
+        display: block;
+        background-image: linear-gradient(to top left, #14213d 0%, #535682 100%);
+       
+    }
+    p{
+        font-size: 10px;
+        text-align: center;
+    }
+    h3{
+        font-size: 10px;
+        text-align: center;
+    }
+    button{
+        padding: 20px 20px;
+        border: 2px solid #161b33;
+        border-radius: 10px; 
+        background-image: linear-gradient(to top left, #355070 0%, #6d597a 100%);
+        font-size: 20px;
+        margin-top: 5px;
+    }
+
+ 
+  }
